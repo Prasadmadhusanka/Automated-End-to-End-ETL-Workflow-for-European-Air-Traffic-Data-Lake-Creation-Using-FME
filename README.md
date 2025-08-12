@@ -44,7 +44,38 @@ In today’s data-driven world, real-time integration and processing of vast amo
 ### 3. OurAirports
 [OurAirports](https://ourairports.com/) provides IATA codes for all airports globally.
 
-## Workflow
+## Methodology
+
+The core workflow includes:
+
+- **Data Extraction:** Automated retrieval of flight schedules through API calls using FME Desktop HTTP Caller transformer. Airport details are saved using CSV Writer and GeoJSON Writer.
+- **Data Transformation:** Use of FME Desktop transformers to clean, enrich, and integrate the raw data into a consistent geo-spatial format (GeoJSON).
+- **Data Loading:** Storage of processed data into a scalable data lake supporting real-time updates, saved as GeoJSON.
+- **Automation:** Scheduled execution twice daily using Windows Task Scheduler to ensure up-to-date data availability.
+
+The following diagram illustrates the end-to-end workflow and automation process implemented in this project. 
+
+![Project Workflow](images/projectworkflow.png)
+
+ ### **Data Extraction:**
+
+**Aviation Edge API: Airport Schedule Request**
+
+To retrieve flight schedule data.  The type of schedule either `departure` or `arrival`.
+  
+ **Arrival flight shedule**
+
+  ```
+   https://aviation-edge.com/v2/public/timetable?key=[API_KEY]&iataCode=[IATACODE]&type=arrival
+  ```
+**Departure flight shedule**
+```
+   https://aviation-edge.com/v2/public/timetable?key=[API_KEY]&iataCode=[IATACODE]&type=departure
+  ```
+Replace [API_KEY] in the API request URL with actual Aviation Edge API key. The relevant [IATACODE] for each airport is extracted from the OpenAIP database.
+
+
+
 
 
 
