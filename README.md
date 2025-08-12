@@ -57,7 +57,7 @@ The following diagram illustrates the end-to-end workflow and automation process
 
  ### **Data Extraction:**
 
-The IATA codes for EU airports were extracted from the OpenAIP. These codes were then read into FME using the GeoJSON Writer. Based on these IATA codes, the API request URLs were dynamically generated within FME. These URLs serve as inputs for the HTTP Caller transformer in FME, which retrieves real-time flight schedule data from the Aviation Edge API.
+The IATA codes for EU airports were extracted from the [OpenAIP](https://www.openaip.net/). These codes were then read into FME using the GeoJSON Writer. Based on these IATA codes, the API request URLs were dynamically generated within FME. These URLs serve as inputs for the HTTP Caller transformer in FME, which retrieves real-time flight schedule data from the [Aviation Edge API](https://aviation-edge.com/).
 
 **Aviation Edge API: Airport Schedule Request**
 
@@ -72,21 +72,22 @@ To retrieve flight schedule data. The type of schedule either `departure` or `ar
 ```
    https://aviation-edge.com/v2/public/timetable?key=[API_KEY]&iataCode=[IATACODE]&type=departure
   ```
-Replace [API_KEY] in the API request URL with actual Aviation Edge API key.
+Replace [API_KEY] in the API request URL with actual Aviation Edge API key. In the EU region, there are 444 major airports, and daily flight operations occur at approximately 250 of these airports. Consequently, each workflow run involves making 888 API calls (covering both arrivals and departures). However, the Aviation Edge API returns successful responses only for the airports with active flight operations—around 250 airports. For airports without flight activity on a given day, the API returns error responses.
 
-Global airport details, including airport names and codes, were extracted from the OurAirports in CSV format. This comprehensive dataset was used to enrich the flight data and provide detailed airport information across all regions.
+Global airport details, including airport names and codes, were extracted from the [OurAirports](https://ourairports.com/) in CSV format. This comprehensive dataset was used to enrich the flight data and provide detailed airport information across all regions.
 
 ### **Data Transformation and Cleaning:**
 
 The following FME transformers were used to clean, transform, and prepare the data for further processing:
 
-- **Tester**: To filter features based on attribute values and conditions.  
-- **Attribute Remover**: To delete unnecessary or redundant attributes.  
-- **Attribute Manager**: To create, update, or modify attributes.  
-- **JSON Fragmenter**: To break down JSON objects into manageable fragments.  
-- **JSON Flattener**: To convert nested JSON structures into flat attribute tables.  
-- **Feature Joiner**: To combine features based on matching attribute values.  
-- **Attribute Renamer**: To rename attributes for consistency and clarity.
+- **Tester**: Filters features based on attribute values and conditions.  
+- **Attribute Remover**: Deletes unnecessary or redundant attributes.  
+- **Attribute Manager**: Creates, updates, or modifies attributes, including constructing API URLs.  
+- **JSON Fragmenter**: Breaks down complex JSON objects into manageable fragments.  
+- **JSON Flattener**: Converts nested JSON structures into flat attribute tables.  
+- **Feature Joiner**: Combines features based on matching attribute values, such as joining airport IATA codes with airport detail attributes.  
+- **Attribute Renamer**: Renames attributes to ensure consistency and clarity.  
+- **Logger**: Captures API call errors to prevent termination of the API calling loop and supports troubleshooting.
 
 ### Data Loading
 
@@ -96,7 +97,7 @@ Processed data is stored in a scalable data lake that supports real-time updates
 
 The Aviation Edge API provides flight data covering approximately a 14-hour window per airport per request. Consequently, each execution of the workflow retrieves data for only a 14-hour period. To obtain a complete daily record, the workflow must be run twice per day, spaced roughly 12 hours apart. While **FME Flow** or **Cloud Virtual Machine with FME installation** would be the ideal tool for managing this scheduling automatically, access to it was unavailable. Therefore, a straightforward and effective solution was implemented using **Windows Task Scheduler** combined with a batch file to automate the execution. This setup enables extraction of monthly, daily, and real-time data reliably.
 
-### Batch File for Automation
+#### Batch File for Automation
 
 Create a batch file (`run_fme_workflow.bat`) with the following content to run the FME workspace:
 
@@ -113,15 +114,25 @@ REM Optional: redirect output to a log file (uncomment below to enable logging)
 REM %FME_EXE% "path to your folder\Automated-End-to-End-ETL-Workflow-for-European-Air-Traffic-Data-Lake-Creation-Using-FME\fme_workflow\airline_schedule.fmw" > "path to your folder\Automated-End-to-End-ETL-Workflow-for-European-Air-Traffic-Data-Lake-Creation-Using-FME\fme_workflow\airline_schedule_log.txt" 2>&1
  ```
 
+#### Windows Task Scheduler Setup
 
+- Open **Task Scheduler** on Windows.
+- Create a new task with the following configurations:
+   - **Trigger:** Daily trigger, repeat every 12 hours (to run twice daily).
+   - **Action:** Start a program → Browse and select the batch file created above (`run_fme_workflow.bat`).
+- Save the task.
 
+This approach automates your FME workflow execution, ensuring updated flight data is collected twice daily to cover the full 24-hour period.
 
+## Usage of Data Lake
 
+- Analyze daily EU air traffic records.  
+- Combine data files to derive seasonal, monthly, and annual air traffic insights.  
+- Provide input data for the Air Traffic Dashboard.  
+- Rank EU airports and airlines based on arrivals and departures.
 
+## Thank You!
 
+Thank you for taking the time to explore this project.  
 
-
-
-
-
-
+Happy coding! 🚀
