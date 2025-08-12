@@ -21,7 +21,6 @@ This repository hosts the complete automated ETL pipeline designed to collect, p
 
 In today’s data-driven world, real-time integration and processing of vast amounts of information are critical for gaining timely insights and making informed decisions. This project focuses on building an end-to-end real-time big data pipeline for aviation data by leveraging API integration, JSON data formats, ETL process and FME Desktop for spatial data processing. Flight data from the Aviation Edge API is continuously ingested and transformed, enabling the creation of a comprehensive and scalable data lake. This big data lake serves as a centralized repository, allowing efficient storage, querying, and analysis of dynamic flight information. The workflow is automated using Windows Task Scheduler to ensure timely updates, facilitating real-time analytics and operational intelligence for the aviation industry.
 
-
 ## Objectives
 
 - **Develop a robust pipeline for real-time ingestion of flight data** from the Aviation Edge API using API integration and JSON data formats.
@@ -29,7 +28,6 @@ In today’s data-driven world, real-time integration and processing of vast amo
 - **Design and build a scalable big data lake** to store and manage large volumes of dynamic aviation data, supporting efficient querying and analytics.
 - **Automate the data ingestion and processing workflow** using Windows Task Scheduler to ensure continuous and timely updates of flight data.
 - **Enable real-time analytics and operational insights** for aviation stakeholders by providing access to up-to-date, processed flight information.
-
 
 ## Data Sources
 
@@ -59,20 +57,65 @@ The following diagram illustrates the end-to-end workflow and automation process
 
  ### **Data Extraction:**
 
+The IATA codes for EU airports were extracted from the OpenAIP. These codes were then read into FME using the GeoJSON Writer. Based on these IATA codes, the API request URLs were dynamically generated within FME. These URLs serve as inputs for the HTTP Caller transformer in FME, which retrieves real-time flight schedule data from the Aviation Edge API.
+
 **Aviation Edge API: Airport Schedule Request**
 
-To retrieve flight schedule data.  The type of schedule either `departure` or `arrival`.
+To retrieve flight schedule data. The type of schedule either `departure` or `arrival`.
   
- **Arrival flight shedule**
+ **Arrival flight schedule**
 
   ```
    https://aviation-edge.com/v2/public/timetable?key=[API_KEY]&iataCode=[IATACODE]&type=arrival
   ```
-**Departure flight shedule**
+**Departure flight schedule**
 ```
    https://aviation-edge.com/v2/public/timetable?key=[API_KEY]&iataCode=[IATACODE]&type=departure
   ```
-Replace [API_KEY] in the API request URL with actual Aviation Edge API key. The relevant [IATACODE] for each airport is extracted from the OpenAIP database.
+Replace [API_KEY] in the API request URL with actual Aviation Edge API key.
+
+Global airport details, including airport names and codes, were extracted from the OurAirports in CSV format. This comprehensive dataset was used to enrich the flight data and provide detailed airport information across all regions.
+
+### **Data Transformation and Cleaning:**
+
+The following FME transformers were used to clean, transform, and prepare the data for further processing:
+
+- **Tester**: To filter features based on attribute values and conditions.  
+- **Attribute Remover**: To delete unnecessary or redundant attributes.  
+- **Attribute Manager**: To create, update, or modify attributes.  
+- **JSON Fragmenter**: To break down JSON objects into manageable fragments.  
+- **JSON Flattener**: To convert nested JSON structures into flat attribute tables.  
+- **Feature Joiner**: To combine features based on matching attribute values.  
+- **Attribute Renamer**: To rename attributes for consistency and clarity.
+
+### Data Loading
+
+Processed data is stored in a scalable data lake that supports real-time updates. The data is saved as GeoJSON files using the **Feature Writer** transformer in FME. Each output file is named dynamically in the format `YYYYMMDDHH.geojson` by leveraging the **DateTime Stamper** and **DateTime Converter** transformers to generate the current date and hour. This automatic naming convention ensures organized and timestamped file storage for efficient data management and retrieval.
+
+### Automation
+
+The Aviation Edge API provides flight data covering approximately a 14-hour window per airport per request. Consequently, each execution of the workflow retrieves data for only a 14-hour period. To obtain a complete daily record, the workflow must be run twice per day, spaced roughly 12 hours apart. While **FME Flow** or **Cloud Virtual Machine with FME installation** would be the ideal tool for managing this scheduling automatically, access to it was unavailable. Therefore, a straightforward and effective solution was implemented using **Windows Task Scheduler** combined with a batch file to automate the execution. This setup enables extraction of monthly, daily, and real-time data reliably.
+
+### Batch File for Automation
+
+Create a batch file (`run_fme_workflow.bat`) with the following content to run the FME workspace:
+
+```batch
+@echo off
+REM Set path to FME executable
+set FME_EXE="C:\Program Files\FME\fme.exe"
+
+REM Run the workspace
+%FME_EXE% "path to your folder\Automated-End-to-End-ETL-Workflow-for-European-Air-Traffic-Data-Lake-Creation-Using-FME\fme_workflow\airline_schedule.fmw"
+
+
+REM Optional: redirect output to a log file (uncomment below to enable logging)
+REM %FME_EXE% "path to your folder\Automated-End-to-End-ETL-Workflow-for-European-Air-Traffic-Data-Lake-Creation-Using-FME\fme_workflow\airline_schedule.fmw" > "path to your folder\Automated-End-to-End-ETL-Workflow-for-European-Air-Traffic-Data-Lake-Creation-Using-FME\fme_workflow\airline_schedule_log.txt" 2>&1
+ ```
+
+
+
+
 
 
 
