@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        "C:\Program Files\FME\fme.exe" "C:\Users\Prasa\Documents\PROJECTS (C)\P030\fme_files\airline_schedule.fmw"
+#        "C:\Program Files\FME\fme.exe" "C:\Users\Prasa\Documents\PROJECTS (C)\P030\Automated-End-to-End-ETL-Workflow-for-European-Air-Traffic-Data-Lake-Creation-Using-FME\fme_workflow\airline_schedule.fmw"
 #              --SourceDataset_CSV2 "C:\Users\Prasa\Documents\PROJECTS (C)\P030\airport_details\world-airports.csv"
 #              --SourceDataset_GEOJSON_54 "C:\Users\Prasa\Documents\PROJECTS (C)\P030\airport_details\EUCountries_Airports.geojson"
 #    
@@ -12,14 +12,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="12923.1 828.911"
-#!   DOC_TOP_LEFT="62.9995 2432.09"
+#!   DOC_EXTENTS="12934 718"
+#!   DOC_TOP_LEFT="-75.0008 213"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="20200"
-#!   FME_DOCUMENT_GUID="daa4b4d1-0ef8-4797-a7b0-4040407b5646"
-#!   FME_DOCUMENT_PRIORGUID="d3437ed2-84ad-40bc-b2f2-23e5982e729d,1d66e8c8-9483-4f32-ae40-1599a300bb85,d0a6f426-8bdc-4d1c-8444-3a431577604f,108af794-5b4b-4f77-96a1-e6c9fec3b35b,30c5043f-51e2-4159-8933-6b25c45d713d,72e304d1-b555-43c2-b7ce-b51b122c1616,c3ef0f8b-07f7-4bc8-8912-1ba1e3d29a76,09511e3d-b3a7-40da-8807-843a3add0556,790be0eb-af3a-4a47-bc73-0bfe58ebbed0,2c626e63-2ac6-4213-bdad-c7a0951da79e,fcaf3286-9d90-4368-b618-cc33f5ec610e,d7818417-de73-47a9-83f8-21ea902a3e25,4a074f7b-1850-47da-97c5-55ad336c8fc4,463e00a1-e270-4aef-8dc9-50a0708cdb85,b3e0d53c-3824-486d-89b8-00f9484d716d,7c31adc0-5426-4ba0-a45d-c4bed29ce90c,f89645ed-e050-4d55-a965-ccf3c6256d86,69c2681b-fc52-473a-96bd-5030f1eabcab,5cbc72fe-4fb0-4056-a401-9cbcd953cfd2,17fd9637-8e3a-4c95-b594-669ec7193aea,8c554d8c-fab4-44b8-ac76-0800727100ce,171c6e2c-650f-4807-98be-e5f56ea061d8,f3b54db8-9a26-4b97-ae4d-390d523c646c,3b29b443-5807-4c8e-a434-2ed54af3db4c,e04220a5-b872-4d10-8409-bf3e2896e848,f2072eb5-cde9-4398-8d20-6f1d4e5377da,45334e03-e588-4377-aa63-f7ea658c381a,18b6b616-3d89-41fc-afdf-741f33d38562,a010c041-60f1-49f0-886e-0efa4bc582af,46e7100f-f7fa-4c8e-84df-c0ac4bc9c681,9ae4155c-00dc-4699-96b9-815cbcf438a6,fa631561-3e26-4636-a47a-28870a66f86b,c3362b73-13fc-438f-8468-5d30127013ee,8dddeb30-35b1-428d-9eff-4fb4dba64a78,a54f1eb2-d1c7-4c7c-b6ca-d415c6bb5775,7b3dcf81-49df-4648-a312-ff06c7000c7f,237946f7-b83d-4506-9f15-c14944009f4f,bb2e6dda-39ad-4272-836c-caa0cd8793e1,00e7b619-44ec-4dd6-a0d9-6bd0fdc13ddb,40c04350-53ff-48d2-8678-411680b72717"
+#!   FME_DOCUMENT_GUID="6571198a-78a8-4df0-81f1-503c343a5c29"
+#!   FME_DOCUMENT_PRIORGUID="d3437ed2-84ad-40bc-b2f2-23e5982e729d,1d66e8c8-9483-4f32-ae40-1599a300bb85,d0a6f426-8bdc-4d1c-8444-3a431577604f,108af794-5b4b-4f77-96a1-e6c9fec3b35b,30c5043f-51e2-4159-8933-6b25c45d713d,72e304d1-b555-43c2-b7ce-b51b122c1616,c3ef0f8b-07f7-4bc8-8912-1ba1e3d29a76,09511e3d-b3a7-40da-8807-843a3add0556,790be0eb-af3a-4a47-bc73-0bfe58ebbed0,2c626e63-2ac6-4213-bdad-c7a0951da79e,fcaf3286-9d90-4368-b618-cc33f5ec610e,d7818417-de73-47a9-83f8-21ea902a3e25,4a074f7b-1850-47da-97c5-55ad336c8fc4,463e00a1-e270-4aef-8dc9-50a0708cdb85,b3e0d53c-3824-486d-89b8-00f9484d716d,7c31adc0-5426-4ba0-a45d-c4bed29ce90c,f89645ed-e050-4d55-a965-ccf3c6256d86,69c2681b-fc52-473a-96bd-5030f1eabcab,5cbc72fe-4fb0-4056-a401-9cbcd953cfd2,17fd9637-8e3a-4c95-b594-669ec7193aea,8c554d8c-fab4-44b8-ac76-0800727100ce,171c6e2c-650f-4807-98be-e5f56ea061d8,f3b54db8-9a26-4b97-ae4d-390d523c646c,3b29b443-5807-4c8e-a434-2ed54af3db4c,e04220a5-b872-4d10-8409-bf3e2896e848,f2072eb5-cde9-4398-8d20-6f1d4e5377da,45334e03-e588-4377-aa63-f7ea658c381a,18b6b616-3d89-41fc-afdf-741f33d38562,a010c041-60f1-49f0-886e-0efa4bc582af,46e7100f-f7fa-4c8e-84df-c0ac4bc9c681,9ae4155c-00dc-4699-96b9-815cbcf438a6,fa631561-3e26-4636-a47a-28870a66f86b,c3362b73-13fc-438f-8468-5d30127013ee,8dddeb30-35b1-428d-9eff-4fb4dba64a78,a54f1eb2-d1c7-4c7c-b6ca-d415c6bb5775,7b3dcf81-49df-4648-a312-ff06c7000c7f,237946f7-b83d-4506-9f15-c14944009f4f,bb2e6dda-39ad-4272-836c-caa0cd8793e1,00e7b619-44ec-4dd6-a0d9-6bd0fdc13ddb,40c04350-53ff-48d2-8678-411680b72717,daa4b4d1-0ef8-4797-a7b0-4040407b5646"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2020.0.0.0 (20200309 - Build 20200 - WIN64)"
-#!   LAST_SAVE_DATE="2025-08-10T02:47:55"
+#!   LAST_SAVE_DATE="2025-08-12T04:39:20"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -47,10 +47,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1262.27 3357.88"
+#!   VIEW_POSITION="9470.09 1250.01"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="102"
+#!   ZOOM_SCALE="125"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -66,7 +66,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle string fme_text_size string csv_skipped_line string fme_start_angle string csv_number_of_fields uint32 multi_reader_type string fme_rotation string fme_color string csv_type string fme_type string fme_text_string string fme_secondary_axis string fme_feature_type string fme_geometry string fme_basename string csv_line_number uint64 multi_reader_keyword string fme_dataset string multi_reader_id string multi_reader_full_id string fme_primary_axis string fme_fill_color string csv_total_number_of_columns uint32"
+#!   EXPOSABLE_ATTRS="fme_text_string string multi_reader_full_id string csv_total_number_of_columns uint32 fme_start_angle string fme_color string fme_rotation string csv_skipped_line string fme_secondary_axis string fme_geometry string fme_feature_type string multi_reader_keyword string csv_type string fme_basename string fme_text_size string fme_fill_color string fme_dataset string fme_primary_axis string csv_line_number uint64 fme_type string fme_sweep_angle string csv_number_of_fields uint32 multi_reader_type string multi_reader_id string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -125,7 +125,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle float fme_text_size float fme_start_angle float multi_reader_type string fme_rotation float fme_color string fme_type string fme_text_string string fme_secondary_axis float fme_feature_type string fme_geometry string fme_basename string multi_reader_keyword string fme_dataset string multi_reader_id int multi_reader_full_id int fme_primary_axis float fme_fill_color string"
+#!   EXPOSABLE_ATTRS="multi_reader_full_id int fme_text_string string fme_start_angle float fme_color string fme_rotation float fme_secondary_axis float fme_geometry string fme_feature_type string multi_reader_keyword string fme_basename string fme_text_size float fme_fill_color string fme_dataset string fme_primary_axis float fme_type string fme_sweep_angle float multi_reader_type string multi_reader_id int"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -725,8 +725,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="60"
 #!   FEAT_GEOMTYPE="csv_none csv_point"
-#!   POSITION="4704.5 3160.5"
-#!   BOUNDING_RECT="4704.5 3160.5 454 71"
+#!   POSITION="4717.4994658711348 842"
+#!   BOUNDING_RECT="4717.4994658711348 842 454 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="CSV2_1"
@@ -772,8 +772,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="151"
 #!   FEAT_GEOMTYPE="json_point"
-#!   POSITION="62.999465871135293 2910.5"
-#!   BOUNDING_RECT="62.999465871135293 2910.5 551.00106825772946 71"
+#!   POSITION="-75.000750007500059 481.5"
+#!   BOUNDING_RECT="-75.000750007500059 481.5 689.00128413636469 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="GEOJSON_1"
@@ -933,8 +933,8 @@
 #!   IDENTIFIER="4"
 #!   TYPE="Tester"
 #!   VERSION="3"
-#!   POSITION="842 2952"
-#!   BOUNDING_RECT="842 2952 454 71"
+#!   POSITION="842 523"
+#!   BOUNDING_RECT="842 523 454 71"
 #!   ORDER="500000000000001"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1154,8 +1154,8 @@
 #!   IDENTIFIER="6"
 #!   TYPE="HTTPCaller"
 #!   VERSION="2"
-#!   POSITION="2724.5 3096.25"
-#!   BOUNDING_RECT="2724.5 3096.25 454 71"
+#!   POSITION="2724.5 667.25"
+#!   BOUNDING_RECT="2724.5 667.25 454 71"
 #!   ORDER="500000000000002"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1372,8 +1372,8 @@
 #!   IDENTIFIER="8"
 #!   TYPE="AttributeRemover"
 #!   VERSION="1"
-#!   POSITION="1468 2922"
-#!   BOUNDING_RECT="1468 2922 454 71"
+#!   POSITION="1468 493"
+#!   BOUNDING_RECT="1468 493 454 71"
 #!   ORDER="500000000000005"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1467,8 +1467,8 @@
 #!   IDENTIFIER="10"
 #!   TYPE="AttributeManager"
 #!   VERSION="2"
-#!   POSITION="2094 3033"
-#!   BOUNDING_RECT="2094 3033 454 71"
+#!   POSITION="2094 604"
+#!   BOUNDING_RECT="2094 604 454 71"
 #!   ORDER="500000000000006"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1555,7 +1555,7 @@
 #!     <XFORM_ATTR ATTR_NAME="hoursOfOperation.operatingHours{}.publicHolidaysExcluded" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="name name  NO_OP trafficType&lt;opencurly&gt;&lt;closecurly&gt; trafficType&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.value frequencies&lt;opencurly&gt;&lt;closecurly&gt;.value  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.unit frequencies&lt;opencurly&gt;&lt;closecurly&gt;.unit  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.type frequencies&lt;opencurly&gt;&lt;closecurly&gt;.type  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.name frequencies&lt;opencurly&gt;&lt;closecurly&gt;.name  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.primary frequencies&lt;opencurly&gt;&lt;closecurly&gt;.primary  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.publicUse frequencies&lt;opencurly&gt;&lt;closecurly&gt;.publicUse  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;._id frequencies&lt;opencurly&gt;&lt;closecurly&gt;._id  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.designator runways&lt;opencurly&gt;&lt;closecurly&gt;.designator  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.trueHeading runways&lt;opencurly&gt;&lt;closecurly&gt;.trueHeading  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth runways&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.operations runways&lt;opencurly&gt;&lt;closecurly&gt;.operations  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.mainRunway runways&lt;opencurly&gt;&lt;closecurly&gt;.mainRunway  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.turnDirection runways&lt;opencurly&gt;&lt;closecurly&gt;.turnDirection  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.takeOffOnly runways&lt;opencurly&gt;&lt;closecurly&gt;.takeOffOnly  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.landingOnly runways&lt;opencurly&gt;&lt;closecurly&gt;.landingOnly  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.composition&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.composition&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mainComposite runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mainComposite  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.condition runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.condition  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.pcn runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.pcn  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.value runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.value runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.pilotCtrlLighting runways&lt;opencurly&gt;&lt;closecurly&gt;.pilotCtrlLighting  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.visualApproachAids&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.visualApproachAids&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;._id runways&lt;opencurly&gt;&lt;closecurly&gt;._id  NO_OP iataCode iataCode  NO_OP services.fuelTypes&lt;opencurly&gt;&lt;closecurly&gt; services.fuelTypes&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.unit  NO_OP services.handlingFacilities&lt;opencurly&gt;&lt;closecurly&gt; services.handlingFacilities&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP services.passengerFacilities&lt;opencurly&gt;&lt;closecurly&gt; services.passengerFacilities&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP  api_url https:&lt;solidus&gt;&lt;solidus&gt;aviation-edge.com&lt;solidus&gt;v2&lt;solidus&gt;public&lt;solidus&gt;timetable?key=b4ab65-0a1460&lt;amp&gt;iataCode=&lt;at&gt;Value&lt;openparen&gt;iataCode&lt;closeparen&gt;&lt;amp&gt;type=departure SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="name name  NO_OP trafficType&lt;opencurly&gt;&lt;closecurly&gt; trafficType&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.value frequencies&lt;opencurly&gt;&lt;closecurly&gt;.value  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.unit frequencies&lt;opencurly&gt;&lt;closecurly&gt;.unit  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.type frequencies&lt;opencurly&gt;&lt;closecurly&gt;.type  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.name frequencies&lt;opencurly&gt;&lt;closecurly&gt;.name  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.primary frequencies&lt;opencurly&gt;&lt;closecurly&gt;.primary  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.publicUse frequencies&lt;opencurly&gt;&lt;closecurly&gt;.publicUse  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;._id frequencies&lt;opencurly&gt;&lt;closecurly&gt;._id  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.designator runways&lt;opencurly&gt;&lt;closecurly&gt;.designator  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.trueHeading runways&lt;opencurly&gt;&lt;closecurly&gt;.trueHeading  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth runways&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.operations runways&lt;opencurly&gt;&lt;closecurly&gt;.operations  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.mainRunway runways&lt;opencurly&gt;&lt;closecurly&gt;.mainRunway  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.turnDirection runways&lt;opencurly&gt;&lt;closecurly&gt;.turnDirection  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.takeOffOnly runways&lt;opencurly&gt;&lt;closecurly&gt;.takeOffOnly  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.landingOnly runways&lt;opencurly&gt;&lt;closecurly&gt;.landingOnly  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.composition&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.composition&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mainComposite runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mainComposite  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.condition runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.condition  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.pcn runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.pcn  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.value runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.value runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.pilotCtrlLighting runways&lt;opencurly&gt;&lt;closecurly&gt;.pilotCtrlLighting  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.visualApproachAids&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.visualApproachAids&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;._id runways&lt;opencurly&gt;&lt;closecurly&gt;._id  NO_OP iataCode iataCode  NO_OP services.fuelTypes&lt;opencurly&gt;&lt;closecurly&gt; services.fuelTypes&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.unit  NO_OP services.handlingFacilities&lt;opencurly&gt;&lt;closecurly&gt; services.handlingFacilities&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP services.passengerFacilities&lt;opencurly&gt;&lt;closecurly&gt; services.passengerFacilities&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP  api_url https:&lt;solidus&gt;&lt;solidus&gt;aviation-edge.com&lt;solidus&gt;v2&lt;solidus&gt;public&lt;solidus&gt;timetable?key=&lt;openbracket&gt;API_KEY&lt;closebracket&gt;&lt;amp&gt;iataCode=&lt;at&gt;Value&lt;openparen&gt;iataCode&lt;closeparen&gt;&lt;amp&gt;type=departure SET_TO country country  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mtow.value runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mtow.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mtow.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mtow.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.lightingSystem&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.lightingSystem&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.remarks runways&lt;opencurly&gt;&lt;closecurly&gt;.remarks  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.exclusiveAircraftType&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.exclusiveAircraftType&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP services.gliderTowing&lt;opencurly&gt;&lt;closecurly&gt; services.gliderTowing&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.identifier runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.identifier  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.frequency.value runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.frequency.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.frequency.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.frequency.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.type runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.type  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.dayOfWeek runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.dayOfWeek  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.startTime runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.startTime  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.endTime runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.endTime  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.byNotam runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.byNotam  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunrise runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunrise  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunset runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunset  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.publicHolidaysExcluded runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.publicHolidaysExcluded  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.geometry.type runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.geometry.type  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.geometry.coordinates&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.geometry.coordinates&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.value runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.referenceDatum runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.referenceDatum  NO_OP images&lt;opencurly&gt;&lt;closecurly&gt;.filename images&lt;opencurly&gt;&lt;closecurly&gt;.filename  NO_OP images&lt;opencurly&gt;&lt;closecurly&gt;._id images&lt;opencurly&gt;&lt;closecurly&gt;._id  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.channel runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.channel  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.remarks runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.remarks  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.remarks frequencies&lt;opencurly&gt;&lt;closecurly&gt;.remarks  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.dayOfWeek hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.dayOfWeek  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.startTime hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.startTime  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.endTime hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.endTime  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.byNotam hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.byNotam  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunrise hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunrise  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunset hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunset  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.publicHolidaysExcluded hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.publicHolidaysExcluded  NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1568,8 +1568,8 @@
 #!   IDENTIFIER="30"
 #!   TYPE="AttributeManager"
 #!   VERSION="2"
-#!   POSITION="2094 2835"
-#!   BOUNDING_RECT="2094 2835 454 71"
+#!   POSITION="2094 406"
+#!   BOUNDING_RECT="2094 406 454 71"
 #!   ORDER="500000000000013"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1656,7 +1656,7 @@
 #!     <XFORM_ATTR ATTR_NAME="hoursOfOperation.operatingHours{}.publicHolidaysExcluded" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="Country Country  NO_OP name name  NO_OP trafficType&lt;opencurly&gt;&lt;closecurly&gt; trafficType&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.value frequencies&lt;opencurly&gt;&lt;closecurly&gt;.value  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.unit frequencies&lt;opencurly&gt;&lt;closecurly&gt;.unit  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.type frequencies&lt;opencurly&gt;&lt;closecurly&gt;.type  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.name frequencies&lt;opencurly&gt;&lt;closecurly&gt;.name  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.primary frequencies&lt;opencurly&gt;&lt;closecurly&gt;.primary  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.publicUse frequencies&lt;opencurly&gt;&lt;closecurly&gt;.publicUse  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;._id frequencies&lt;opencurly&gt;&lt;closecurly&gt;._id  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.designator runways&lt;opencurly&gt;&lt;closecurly&gt;.designator  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.trueHeading runways&lt;opencurly&gt;&lt;closecurly&gt;.trueHeading  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth runways&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.operations runways&lt;opencurly&gt;&lt;closecurly&gt;.operations  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.mainRunway runways&lt;opencurly&gt;&lt;closecurly&gt;.mainRunway  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.turnDirection runways&lt;opencurly&gt;&lt;closecurly&gt;.turnDirection  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.takeOffOnly runways&lt;opencurly&gt;&lt;closecurly&gt;.takeOffOnly  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.landingOnly runways&lt;opencurly&gt;&lt;closecurly&gt;.landingOnly  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.composition&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.composition&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mainComposite runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mainComposite  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.condition runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.condition  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.pcn runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.pcn  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.value runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.value runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.pilotCtrlLighting runways&lt;opencurly&gt;&lt;closecurly&gt;.pilotCtrlLighting  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.visualApproachAids&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.visualApproachAids&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;._id runways&lt;opencurly&gt;&lt;closecurly&gt;._id  NO_OP iataCode iataCode  NO_OP services.fuelTypes&lt;opencurly&gt;&lt;closecurly&gt; services.fuelTypes&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.unit  NO_OP services.handlingFacilities&lt;opencurly&gt;&lt;closecurly&gt; services.handlingFacilities&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP services.passengerFacilities&lt;opencurly&gt;&lt;closecurly&gt; services.passengerFacilities&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP  api_url https:&lt;solidus&gt;&lt;solidus&gt;aviation-edge.com&lt;solidus&gt;v2&lt;solidus&gt;public&lt;solidus&gt;timetable?key=b4ab65-0a1460&lt;amp&gt;iataCode=&lt;at&gt;Value&lt;openparen&gt;iataCode&lt;closeparen&gt;&lt;amp&gt;type=arrival SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="Country Country  NO_OP name name  NO_OP trafficType&lt;opencurly&gt;&lt;closecurly&gt; trafficType&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.value frequencies&lt;opencurly&gt;&lt;closecurly&gt;.value  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.unit frequencies&lt;opencurly&gt;&lt;closecurly&gt;.unit  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.type frequencies&lt;opencurly&gt;&lt;closecurly&gt;.type  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.name frequencies&lt;opencurly&gt;&lt;closecurly&gt;.name  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.primary frequencies&lt;opencurly&gt;&lt;closecurly&gt;.primary  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.publicUse frequencies&lt;opencurly&gt;&lt;closecurly&gt;.publicUse  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;._id frequencies&lt;opencurly&gt;&lt;closecurly&gt;._id  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.designator runways&lt;opencurly&gt;&lt;closecurly&gt;.designator  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.trueHeading runways&lt;opencurly&gt;&lt;closecurly&gt;.trueHeading  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth runways&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.operations runways&lt;opencurly&gt;&lt;closecurly&gt;.operations  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.mainRunway runways&lt;opencurly&gt;&lt;closecurly&gt;.mainRunway  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.turnDirection runways&lt;opencurly&gt;&lt;closecurly&gt;.turnDirection  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.takeOffOnly runways&lt;opencurly&gt;&lt;closecurly&gt;.takeOffOnly  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.landingOnly runways&lt;opencurly&gt;&lt;closecurly&gt;.landingOnly  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.composition&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.composition&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mainComposite runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mainComposite  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.condition runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.condition  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.pcn runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.pcn  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.value runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.length.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.value runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.dimension.width.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.tora.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.lda.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.pilotCtrlLighting runways&lt;opencurly&gt;&lt;closecurly&gt;.pilotCtrlLighting  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.visualApproachAids&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.visualApproachAids&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;._id runways&lt;opencurly&gt;&lt;closecurly&gt;._id  NO_OP iataCode iataCode  NO_OP services.fuelTypes&lt;opencurly&gt;&lt;closecurly&gt; services.fuelTypes&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.toda.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.value runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.declaredDistance.asda.unit  NO_OP services.handlingFacilities&lt;opencurly&gt;&lt;closecurly&gt; services.handlingFacilities&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP services.passengerFacilities&lt;opencurly&gt;&lt;closecurly&gt; services.passengerFacilities&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP  api_url https:&lt;solidus&gt;&lt;solidus&gt;aviation-edge.com&lt;solidus&gt;v2&lt;solidus&gt;public&lt;solidus&gt;timetable?key=&lt;openbracket&gt;API_KEY&lt;closebracket&gt;&lt;amp&gt;iataCode=&lt;at&gt;Value&lt;openparen&gt;iataCode&lt;closeparen&gt;&lt;amp&gt;type=arrival SET_TO country country  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mtow.value runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mtow.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mtow.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.surface.mtow.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.lightingSystem&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.lightingSystem&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.remarks runways&lt;opencurly&gt;&lt;closecurly&gt;.remarks  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.exclusiveAircraftType&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.exclusiveAircraftType&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP services.gliderTowing&lt;opencurly&gt;&lt;closecurly&gt; services.gliderTowing&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.identifier runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.identifier  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.frequency.value runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.frequency.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.frequency.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.frequency.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.alignedTrueNorth  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.type runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.type  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.dayOfWeek runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.dayOfWeek  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.startTime runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.startTime  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.endTime runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.endTime  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.byNotam runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.byNotam  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunrise runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunrise  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunset runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunset  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.publicHolidaysExcluded runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.publicHolidaysExcluded  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.geometry.type runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.geometry.type  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.geometry.coordinates&lt;opencurly&gt;&lt;closecurly&gt; runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.geometry.coordinates&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.value runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.value  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.unit runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.unit  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.referenceDatum runways&lt;opencurly&gt;&lt;closecurly&gt;.thresholdLocation.elevation.referenceDatum  NO_OP images&lt;opencurly&gt;&lt;closecurly&gt;.filename images&lt;opencurly&gt;&lt;closecurly&gt;.filename  NO_OP images&lt;opencurly&gt;&lt;closecurly&gt;._id images&lt;opencurly&gt;&lt;closecurly&gt;._id  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.channel runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.channel  NO_OP runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.remarks runways&lt;opencurly&gt;&lt;closecurly&gt;.instrumentApproachAids&lt;opencurly&gt;&lt;closecurly&gt;.remarks  NO_OP frequencies&lt;opencurly&gt;&lt;closecurly&gt;.remarks frequencies&lt;opencurly&gt;&lt;closecurly&gt;.remarks  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.dayOfWeek hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.dayOfWeek  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.startTime hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.startTime  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.endTime hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.endTime  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.byNotam hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.byNotam  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunrise hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunrise  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunset hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.sunset  NO_OP hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.publicHolidaysExcluded hoursOfOperation.operatingHours&lt;opencurly&gt;&lt;closecurly&gt;.publicHolidaysExcluded  NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1669,8 +1669,8 @@
 #!   IDENTIFIER="32"
 #!   TYPE="HTTPCaller"
 #!   VERSION="2"
-#!   POSITION="2724.5 2827.25"
-#!   BOUNDING_RECT="2724.5 2827.25 454 71"
+#!   POSITION="2724.5 398.25"
+#!   BOUNDING_RECT="2724.5 398.25 454 71"
 #!   ORDER="500000000000014"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1887,8 +1887,8 @@
 #!   IDENTIFIER="59"
 #!   TYPE="AttributeRemover"
 #!   VERSION="1"
-#!   POSITION="5377 3172"
-#!   BOUNDING_RECT="5377 3172 454 71"
+#!   POSITION="5377 842"
+#!   BOUNDING_RECT="5377 842 454 71"
 #!   ORDER="500000000000017"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1912,8 +1912,8 @@
 #!   IDENTIFIER="61"
 #!   TYPE="AttributeRemover"
 #!   VERSION="1"
-#!   POSITION="3422.5 2923"
-#!   BOUNDING_RECT="3422.5 2923 454 71"
+#!   POSITION="3422.5 494"
+#!   BOUNDING_RECT="3422.5 494 454 71"
 #!   ORDER="500000000000009"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -2008,8 +2008,8 @@
 #!   IDENTIFIER="63"
 #!   TYPE="JSONFragmenter"
 #!   VERSION="7"
-#!   POSITION="4725.5 2953"
-#!   BOUNDING_RECT="4725.5 2953 454 71"
+#!   POSITION="4725.5 577"
+#!   BOUNDING_RECT="4725.5 577 454 71"
 #!   ORDER="500000000000007"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2197,8 +2197,8 @@
 #!   IDENTIFIER="65"
 #!   TYPE="Tester"
 #!   VERSION="3"
-#!   POSITION="4074 2953"
-#!   BOUNDING_RECT="4074 2953 454 71"
+#!   POSITION="4074 563"
+#!   BOUNDING_RECT="4074 563 454 71"
 #!   ORDER="500000000000011"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2378,8 +2378,8 @@
 #!   IDENTIFIER="66"
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
-#!   POSITION="5377 2953"
-#!   BOUNDING_RECT="5377 2953 454 71"
+#!   POSITION="5377 582"
+#!   BOUNDING_RECT="5377 582 454 71"
 #!   ORDER="500000000000008"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2621,8 +2621,8 @@
 #!   IDENTIFIER="68"
 #!   TYPE="Tester"
 #!   VERSION="3"
-#!   POSITION="6003 2953"
-#!   BOUNDING_RECT="6003 2953 454 71"
+#!   POSITION="6003 623"
+#!   BOUNDING_RECT="6003 623 454 71"
 #!   ORDER="500000000000010"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2858,8 +2858,8 @@
 #!   IDENTIFIER="74"
 #!   TYPE="FeatureJoiner"
 #!   VERSION="1000"
-#!   POSITION="8427 3261"
-#!   BOUNDING_RECT="8427 3261 430 71"
+#!   POSITION="8427 931"
+#!   BOUNDING_RECT="8427 931 430 71"
 #!   ORDER="500000000000018"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3213,8 +3213,8 @@
 #!   IDENTIFIER="77"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
-#!   POSITION="6003 3172"
-#!   BOUNDING_RECT="6003 3172 454 71"
+#!   POSITION="6003 842"
+#!   BOUNDING_RECT="6003 842 454 71"
 #!   ORDER="500000000000019"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3237,8 +3237,8 @@
 #!   IDENTIFIER="80"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
-#!   POSITION="7807 3058"
-#!   BOUNDING_RECT="7807 3058 454 71"
+#!   POSITION="7807 728"
+#!   BOUNDING_RECT="7807 728 454 71"
 #!   ORDER="500000000000019"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3357,8 +3357,8 @@
 #!   IDENTIFIER="75"
 #!   TYPE="FeatureJoiner"
 #!   VERSION="1000"
-#!   POSITION="6623 3073"
-#!   BOUNDING_RECT="6623 3073 430 71"
+#!   POSITION="6623 743"
+#!   BOUNDING_RECT="6623 743 430 71"
 #!   ORDER="500000000000018"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3721,8 +3721,8 @@
 #!   IDENTIFIER="83"
 #!   TYPE="AttributeRemover"
 #!   VERSION="1"
-#!   POSITION="7181 2968"
-#!   BOUNDING_RECT="7181 2968 454 71"
+#!   POSITION="7181 638"
+#!   BOUNDING_RECT="7181 638 454 71"
 #!   ORDER="500000000000020"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3842,8 +3842,8 @@
 #!   IDENTIFIER="87"
 #!   TYPE="AttributeRemover"
 #!   VERSION="1"
-#!   POSITION="8985 3111"
-#!   BOUNDING_RECT="8985 3111 454 71"
+#!   POSITION="8985 781"
+#!   BOUNDING_RECT="8985 781 454 71"
 #!   ORDER="500000000000020"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3968,8 +3968,8 @@
 #!   IDENTIFIER="89"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
-#!   POSITION="9637.4221535072502 3111"
-#!   BOUNDING_RECT="9637.4221535072502 3111 717.15569298550145 71"
+#!   POSITION="9637.4221535072502 781"
+#!   BOUNDING_RECT="9637.4221535072502 781 717.15569298550145 71"
 #!   ORDER="500000000000021"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4093,8 +4093,8 @@
 #!   IDENTIFIER="70"
 #!   TYPE="Logger"
 #!   VERSION="4"
-#!   POSITION="3401.5 3118.25"
-#!   BOUNDING_RECT="3401.5 3118.25 454 71"
+#!   POSITION="3401.5 689.25"
+#!   BOUNDING_RECT="3401.5 689.25 454 71"
 #!   ORDER="500000000000038"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4198,8 +4198,8 @@
 #!   IDENTIFIER="72"
 #!   TYPE="Logger"
 #!   VERSION="4"
-#!   POSITION="3401.5 2746.25"
-#!   BOUNDING_RECT="3401.5 2746.25 454 71"
+#!   POSITION="3401.5 317.25"
+#!   BOUNDING_RECT="3401.5 317.25 454 71"
 #!   ORDER="500000000000041"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4303,8 +4303,8 @@
 #!   IDENTIFIER="48"
 #!   TYPE="DateTimeStamper"
 #!   VERSION="1"
-#!   POSITION="10701.700154256445 3072.9473961406279"
-#!   BOUNDING_RECT="10701.700154256445 3072.9473961406279 454 71"
+#!   POSITION="10553 781"
+#!   BOUNDING_RECT="10553 781 454 71"
 #!   ORDER="500000000000044"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4434,8 +4434,8 @@
 #!   IDENTIFIER="50"
 #!   TYPE="DateTimeConverter"
 #!   VERSION="3"
-#!   POSITION="11293.700154256445 3072.9473961406279"
-#!   BOUNDING_RECT="11293.700154256445 3072.9473961406279 454 71"
+#!   POSITION="11179 811"
+#!   BOUNDING_RECT="11179 811 454 71"
 #!   ORDER="500000000000045"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4681,8 +4681,8 @@
 #!   IDENTIFIER="52"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
-#!   POSITION="11885.700154256445 3072.9473961406279"
-#!   BOUNDING_RECT="11885.700154256445 3072.9473961406279 454 71"
+#!   POSITION="11805 781"
+#!   BOUNDING_RECT="11805 781 454 71"
 #!   ORDER="500000000000046"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4814,8 +4814,8 @@
 #!   IDENTIFIER="56"
 #!   TYPE="FeatureWriter"
 #!   VERSION="0"
-#!   POSITION="12556.122887111225 3072.9473961406279"
-#!   BOUNDING_RECT="12556.122887111225 3072.9473961406279 430 71"
+#!   POSITION="12429 880.25"
+#!   BOUNDING_RECT="12429 880.25 430 71"
 #!   ORDER="500000000000047"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4977,8 +4977,8 @@
 #!   IDENTIFIER="79"
 #!   TYPE="DateTimeStamper"
 #!   VERSION="1"
-#!   POSITION="4109.6597734604802 2552.2263176553324"
-#!   BOUNDING_RECT="4109.6597734604802 2552.2263176553324 454 71"
+#!   POSITION="4074 308"
+#!   BOUNDING_RECT="4074 308 454 71"
 #!   ORDER="500000000000048"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -5082,8 +5082,8 @@
 #!   IDENTIFIER="93"
 #!   TYPE="DateTimeConverter"
 #!   VERSION="3"
-#!   POSITION="4701.6597734604802 2552.2263176553324"
-#!   BOUNDING_RECT="4701.6597734604802 2552.2263176553324 470.00106825772946 71"
+#!   POSITION="4717.4994658711348 320"
+#!   BOUNDING_RECT="4717.4994658711348 320 470.00106825772946 71"
 #!   ORDER="500000000000049"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -5276,8 +5276,8 @@
 #!   IDENTIFIER="95"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
-#!   POSITION="5309.6608417182097 2552.2263176553324"
-#!   BOUNDING_RECT="5309.6608417182097 2552.2263176553324 454 71"
+#!   POSITION="5377 284"
+#!   BOUNDING_RECT="5377 284 454 71"
 #!   ORDER="500000000000050"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -5383,8 +5383,8 @@
 #!   IDENTIFIER="97"
 #!   TYPE="FeatureWriter"
 #!   VERSION="0"
-#!   POSITION="6078.1237706612246 2503.0887563777587"
-#!   BOUNDING_RECT="6078.1237706612246 2503.0887563777587 430 71"
+#!   POSITION="6013 362.25"
+#!   BOUNDING_RECT="6013 362.25 430 71"
 #!   ORDER="500000000000051"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -6257,10 +6257,10 @@ CSV2_1_MERGE_DEF CSV2_1::CSV EXACT CSV DEFLINE fme_attribute_reading,defined,id,
 GEOJSON_1_MERGE_DEF GEOJSON_1::EUCountries_Airports EXACT EUCountries_Airports
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "CSV(CSV2_1) Splitter"    INPUT FEATURE_TYPE CSV    OUTPUT FEATURE_TYPE CSV_CSV2_1
+FACTORY_DEF * TeeFactory    FACTORY_NAME "EUCountries_Airports(GEOJSON_1) Splitter"    INPUT FEATURE_TYPE EUCountries_Airports    OUTPUT FEATURE_TYPE EUCountries_Airports_GEOJSON_1
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "EUCountries_Airports(GEOJSON_1) Splitter"    INPUT FEATURE_TYPE EUCountries_Airports    OUTPUT FEATURE_TYPE EUCountries_Airports_GEOJSON_1
+FACTORY_DEF * TeeFactory    FACTORY_NAME "CSV(CSV2_1) Splitter"    INPUT FEATURE_TYPE CSV    OUTPUT FEATURE_TYPE CSV_CSV2_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE EUCountries_Airports_GEOJSON_1    CASE_INSENSITIVE_TEST iataCode NOT_ATTRIBUTE_IS_MISSING "" ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
@@ -6269,26 +6269,26 @@ INCLUDE [    set macroLine "MACRO AttributeRemover_LIST_EXP ";    foreach attr [
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeRemover    INPUT  FEATURE_TYPE Tester_PASSED    OUTPUT { FEATURE_TYPE AttributeRemover_OUTPUT        @RemoveAttributes(fme_encoded,_id,createdAt,createdBy,elevation.referenceDatum,elevation.unit,elevation.value,elevationGeoid.geoidHeight,elevationGeoid.hae,frequencies<opencurly>0<closecurly>._id,frequencies<opencurly>0<closecurly>.name,frequencies<opencurly>0<closecurly>.primary,frequencies<opencurly>0<closecurly>.publicUse,frequencies<opencurly>0<closecurly>.type,frequencies<opencurly>0<closecurly>.unit,frequencies<opencurly>0<closecurly>.value,icaoCode,id,magneticDeclination,ppr,private,runways<opencurly>0<closecurly>._id,runways<opencurly>0<closecurly>.alignedTrueNorth,runways<opencurly>0<closecurly>.declaredDistance.lda.unit,runways<opencurly>0<closecurly>.declaredDistance.lda.value,runways<opencurly>0<closecurly>.declaredDistance.tora.unit,runways<opencurly>0<closecurly>.declaredDistance.tora.value,runways<opencurly>0<closecurly>.designator,runways<opencurly>0<closecurly>.dimension.length.unit,runways<opencurly>0<closecurly>.dimension.length.value,runways<opencurly>0<closecurly>.dimension.width.unit,runways<opencurly>0<closecurly>.dimension.width.value,runways<opencurly>0<closecurly>.landingOnly,runways<opencurly>0<closecurly>.mainRunway,runways<opencurly>0<closecurly>.operations,runways<opencurly>0<closecurly>.pilotCtrlLighting,runways<opencurly>0<closecurly>.surface.composition<opencurly>0<closecurly>,runways<opencurly>0<closecurly>.surface.condition,runways<opencurly>0<closecurly>.surface.mainComposite,runways<opencurly>0<closecurly>.surface.pcn,runways<opencurly>0<closecurly>.takeOffOnly,runways<opencurly>0<closecurly>.trueHeading,runways<opencurly>0<closecurly>.turnDirection,runways<opencurly>0<closecurly>.visualApproachAids<opencurly>0<closecurly>,services.fuelTypes<opencurly>0<closecurly>,skydiveActivity,trafficType<opencurly>0<closecurly>,type,updatedAt,updatedBy,winchOnly,runways<opencurly>0<closecurly>.surface.mtow.unit,runways<opencurly>0<closecurly>.surface.mtow.value,contact,hoursOfOperation.remarks,runways<opencurly>0<closecurly>.declaredDistance.asda.unit,runways<opencurly>0<closecurly>.declaredDistance.asda.value,runways<opencurly>0<closecurly>.declaredDistance.toda.unit,runways<opencurly>0<closecurly>.declaredDistance.toda.value,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.alignedTrueNorth,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.frequency.unit,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.frequency.value,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.hoursOfOperation.operatingHours<opencurly>0<closecurly>.byNotam,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.hoursOfOperation.operatingHours<opencurly>0<closecurly>.dayOfWeek,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.hoursOfOperation.operatingHours<opencurly>0<closecurly>.endTime,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.hoursOfOperation.operatingHours<opencurly>0<closecurly>.publicHolidaysExcluded,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.hoursOfOperation.operatingHours<opencurly>0<closecurly>.startTime,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.hoursOfOperation.operatingHours<opencurly>0<closecurly>.sunrise,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.hoursOfOperation.operatingHours<opencurly>0<closecurly>.sunset,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.identifier,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.remarks,runways<opencurly>0<closecurly>.instrumentApproachAids<opencurly>0<closecurly>.type,runways<opencurly>0<closecurly>.lightingSystem<opencurly>0<closecurly>,services.handlingFacilities<opencurly>0<closecurly>,services.passengerFacilities<opencurly>0<closecurly>,remarks,runways<opencurly>0<closecurly>.exclusiveAircraftType<opencurly>0<closecurly>,runways<opencurly>0<closecurly>.remarks,services.gliderTowing<opencurly>0<closecurly>)        @RemoveAttributes(fme_pcre_match"$(AttributeRemover_LIST_EXP)")         }
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRemover OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeRemover_OUTPUT   OUTPUT FEATURE_TYPE AttributeRemover_OUTPUT_0_KgEqTnnsDj0=   OUTPUT FEATURE_TYPE AttributeRemover_OUTPUT_1_Uawi2isjKi0=
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager_2    INPUT  FEATURE_TYPE AttributeRemover_OUTPUT_1_Uawi2isjKi0=    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "api_url" "https:<solidus><solidus>aviation-edge.com<solidus>v2<solidus>public<solidus>timetable?key=b4ab65-0a1460<amp>iataCode=<at>Value<openparen>iataCode<closeparen><amp>type=arrival" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_2_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager_2    INPUT  FEATURE_TYPE AttributeRemover_OUTPUT_1_Uawi2isjKi0=    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "api_url" "https:<solidus><solidus>aviation-edge.com<solidus>v2<solidus>public<solidus>timetable?key=<openbracket>API_KEY<closebracket><amp>iataCode=<at>Value<openparen>iataCode<closeparen><amp>type=arrival" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_2_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller_2       INPUT  FEATURE_TYPE AttributeManager_2_OUTPUT    TARGET_URL "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>api_url<closeparen>,HTTPCaller_2)"    HTTP_METHOD GET    SAVE_FILE NO    OUTPUT_FILENAME "<Unused>"    OUTPUT_DIRECTORY "<Unused>"    FILE_EXTENSION "<Unused>"    TARGET_ATTR "_response_body"    FILE_PATH_ATTR "<Unused>"    UPLOAD_FILE "<Unused>"    UPLOAD_BODY "<Unused>"    MULTIPART_UPLOAD <Unused>    UPLOAD_CONTENT_TYPE "<Unused>"    COMBINED_MULTIPART_TABLE    REQUEST_HEADER_TABLE    ADDITIONAL_URL_PARAMETERS    AUTH_USERNAME "<Unused>"    AUTH_PASSWORD "<Unused>"    AUTH_METHOD "<Unused>"    TARGET_ATTRIBUTE_ENCODING auto-detect    RESPONSE_HEADER_LIST_ATTR ""    STATUS_CODE_ATTR "_http_status_code"    ERROR_ATTR "_error"    CONNECTION_TIMEOUT_LENGTH 60    TRANSFER_TIMEOUT_LENGTH 90    FOLLOW_REDIRECTS FOLLOW_WITH_GET    REDIRECT_AUTH ORIGINAL_DOMAIN_ONLY    VERIFY_SSL_CERTIFICATES Yes    NAMED_CONNECTION "<Unused>"    USE_COOKIES No    OUTPUT OUTPUT FEATURE_TYPE HTTPCaller_2_Output    OUTPUT REJECTED FEATURE_TYPE HTTPCaller_2_<REJECTED>
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_2_Logger    INPUT  FEATURE_TYPE HTTPCaller_2_<REJECTED>    OUTPUT FEATURE_TYPE Logger_2_LOGGED                  @Log(ENCODED, "Logger_2:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,Logger_2_323074ae_d125_4e42_b043_5bd3671ab3e00)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_2_Logger    INPUT  FEATURE_TYPE HTTPCaller_2_<REJECTED>    OUTPUT FEATURE_TYPE Logger_2_LOGGED                  @Log(ENCODED, "Logger_2:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,Logger_2_f5f669f8_62c2_4b61_a2db_344194f741dd1)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE AttributeRemover_OUTPUT_0_KgEqTnnsDj0=    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "api_url" "https:<solidus><solidus>aviation-edge.com<solidus>v2<solidus>public<solidus>timetable?key=b4ab65-0a1460<amp>iataCode=<at>Value<openparen>iataCode<closeparen><amp>type=departure" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE AttributeRemover_OUTPUT_0_KgEqTnnsDj0=    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "api_url" "https:<solidus><solidus>aviation-edge.com<solidus>v2<solidus>public<solidus>timetable?key=<openbracket>API_KEY<closebracket><amp>iataCode=<at>Value<openparen>iataCode<closeparen><amp>type=departure" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller       INPUT  FEATURE_TYPE AttributeManager_OUTPUT    TARGET_URL "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>api_url<closeparen>,HTTPCaller)"    HTTP_METHOD GET    SAVE_FILE NO    OUTPUT_FILENAME "<Unused>"    OUTPUT_DIRECTORY "<Unused>"    FILE_EXTENSION "<Unused>"    TARGET_ATTR "_response_body"    FILE_PATH_ATTR "<Unused>"    UPLOAD_FILE "<Unused>"    UPLOAD_BODY "<Unused>"    MULTIPART_UPLOAD <Unused>    UPLOAD_CONTENT_TYPE "<Unused>"    COMBINED_MULTIPART_TABLE    REQUEST_HEADER_TABLE    ADDITIONAL_URL_PARAMETERS    AUTH_USERNAME "<Unused>"    AUTH_PASSWORD "<Unused>"    AUTH_METHOD "<Unused>"    TARGET_ATTRIBUTE_ENCODING auto-detect    RESPONSE_HEADER_LIST_ATTR ""    STATUS_CODE_ATTR "_http_status_code"    ERROR_ATTR "_error"    CONNECTION_TIMEOUT_LENGTH 60    TRANSFER_TIMEOUT_LENGTH 90    FOLLOW_REDIRECTS FOLLOW_WITH_GET    REDIRECT_AUTH ORIGINAL_DOMAIN_ONLY    VERIFY_SSL_CERTIFICATES Yes    NAMED_CONNECTION "<Unused>"    USE_COOKIES No    OUTPUT OUTPUT FEATURE_TYPE HTTPCaller_Output    OUTPUT REJECTED FEATURE_TYPE HTTPCaller_<REJECTED>
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_Logger    INPUT  FEATURE_TYPE HTTPCaller_<REJECTED>    OUTPUT FEATURE_TYPE Logger_LOGGED                  @Log(ENCODED, "Logger:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,Logger_22cbd43d_b05c_401d_a0c3_98356bb764330)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_Logger    INPUT  FEATURE_TYPE HTTPCaller_<REJECTED>    OUTPUT FEATURE_TYPE Logger_LOGGED                  @Log(ENCODED, "Logger:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,Logger_e556f5dd_5006_42d4_ac26_6507abb6fb311)
 # -------------------------------------------------------------------------
 DEFAULT_MACRO DateTimeStamper_2_EXPRESSION
 INCLUDE [    set expression {<at>DateTimeCast<openparen><at>DateTimeNow<openparen>local<closeparen><comma>datetime<closeparen>};    if { "NO" eq "NO" } {        set expression <at>TimeZoneRemove<openparen>$expression<closeparen>;    };    puts "MACRO DateTimeStamper_2_EXPRESSION $expression"; ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeStamper_2    INPUT  FEATURE_TYPE Logger_2_LOGGED    INPUT  FEATURE_TYPE Logger_LOGGED    OUTPUT FEATURE_TYPE DateTimeStamper_2_OUTPUT       @EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV, _timestamp, $(DateTimeStamper_2_EXPRESSION), DateTimeStamper_2)
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeStamper_2    INPUT  FEATURE_TYPE Logger_LOGGED    INPUT  FEATURE_TYPE Logger_2_LOGGED    OUTPUT FEATURE_TYPE DateTimeStamper_2_OUTPUT       @EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV, _timestamp, $(DateTimeStamper_2_EXPRESSION), DateTimeStamper_2)
 # -------------------------------------------------------------------------
 DEFAULT_MACRO DateTimeConverter_2_EXPRESSION_LIST
 INCLUDE [    set repairInput {};    if {{YES} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {} ne {} } {       set inFormat {};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {%Y%m%d%H};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    set parmList {};    set attrs {_timestamp};    foreach attr $attrs {       lappend parmList $attr;       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       lappend parmList <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$inFormat<quote>$repairInput<closeparen><comma><quote>$outFormat<quote><closeparen>;    };    puts "MACRO DateTimeConverter_2_EXPRESSION_LIST [join $parmList { }]"; ]
-Tcl2 proc DateTimeConverter_2_3f98fe7e_7040_4622_a374_f419ae0dd87e0_DateTimeConverter {} {    set attrs {_timestamp};    set decodedAttrs {};    set attrVals {};    set attrNulls {};    set attrMissings {};    foreach attr $attrs {       set decodedAttr [FME_DecodeText $attr];       lappend decodedAttrs $decodedAttr;       lappend attrVals [FME_GetAttribute $decodedAttr];       lappend attrNulls [FME_IsAttributeNull $decodedAttr];       lappend attrExists [FME_AttributeExists $decodedAttr];    };    FME_Execute EvaluateExpression ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV $(DateTimeConverter_2_EXPRESSION_LIST) DateTimeConverter_2;    foreach attr $decodedAttrs oldAttrVal $attrVals oldAttrExists $attrExists oldAttrNull $attrNulls {       set newAttrVal [FME_GetAttribute $attr];       if {[string length $newAttrVal] == 0} {          if {{NO} eq {NO} || [string length $oldAttrVal] > 0} {             FME_SetAttribute fme_rejection_code "INVALID_INPUT";             break;          } elseif {!$oldAttrExists} {             FME_UnsetAttributes $attr;          } elseif {!$oldAttrNull} {             FME_SetAttribute $attr {};          };       }    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_2_1    INPUT  FEATURE_TYPE DateTimeStamper_2_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT, ___fme_rejection_code___,fme_rejection_code)       @Tcl2(DateTimeConverter_2_3f98fe7e_7040_4622_a374_f419ae0dd87e0_DateTimeConverter)
+Tcl2 proc DateTimeConverter_2_6cd899d1_8c77_462a_815e_cb5d7f1735a61_DateTimeConverter {} {    set attrs {_timestamp};    set decodedAttrs {};    set attrVals {};    set attrNulls {};    set attrMissings {};    foreach attr $attrs {       set decodedAttr [FME_DecodeText $attr];       lappend decodedAttrs $decodedAttr;       lappend attrVals [FME_GetAttribute $decodedAttr];       lappend attrNulls [FME_IsAttributeNull $decodedAttr];       lappend attrExists [FME_AttributeExists $decodedAttr];    };    FME_Execute EvaluateExpression ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV $(DateTimeConverter_2_EXPRESSION_LIST) DateTimeConverter_2;    foreach attr $decodedAttrs oldAttrVal $attrVals oldAttrExists $attrExists oldAttrNull $attrNulls {       set newAttrVal [FME_GetAttribute $attr];       if {[string length $newAttrVal] == 0} {          if {{NO} eq {NO} || [string length $oldAttrVal] > 0} {             FME_SetAttribute fme_rejection_code "INVALID_INPUT";             break;          } elseif {!$oldAttrExists} {             FME_UnsetAttributes $attr;          } elseif {!$oldAttrNull} {             FME_SetAttribute $attr {};          };       }    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_2_1    INPUT  FEATURE_TYPE DateTimeStamper_2_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT, ___fme_rejection_code___,fme_rejection_code)       @Tcl2(DateTimeConverter_2_6cd899d1_8c77_462a_815e_cb5d7f1735a61_DateTimeConverter)
 FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeConverter_2_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    FEATURE_TABLE_SHIM_SUPPORT Yes    OUTPUT PASSED FEATURE_TYPE DateTimeConverter_2_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE DateTimeConverter_2_OUTPUT       @RenameAttributes(FME_STRICT, fme_rejection_code,___fme_rejection_code___)
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME DateTimeConverter_2_<Rejected> INPUT FEATURE_TYPE DateTimeConverter_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DateTimeConverter_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
@@ -6343,8 +6343,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeStamper    INPUT  FEATURE_TYPE 
 # -------------------------------------------------------------------------
 DEFAULT_MACRO DateTimeConverter_EXPRESSION_LIST
 INCLUDE [    set repairInput {};    if {{YES} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {} ne {} } {       set inFormat {};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {%Y%m%d%H};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    set parmList {};    set attrs {_timestamp};    foreach attr $attrs {       lappend parmList $attr;       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       lappend parmList <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$inFormat<quote>$repairInput<closeparen><comma><quote>$outFormat<quote><closeparen>;    };    puts "MACRO DateTimeConverter_EXPRESSION_LIST [join $parmList { }]"; ]
-Tcl2 proc DateTimeConverter_746fa7df_517e_4457_8c2d_9b83557308530_DateTimeConverter {} {    set attrs {_timestamp};    set decodedAttrs {};    set attrVals {};    set attrNulls {};    set attrMissings {};    foreach attr $attrs {       set decodedAttr [FME_DecodeText $attr];       lappend decodedAttrs $decodedAttr;       lappend attrVals [FME_GetAttribute $decodedAttr];       lappend attrNulls [FME_IsAttributeNull $decodedAttr];       lappend attrExists [FME_AttributeExists $decodedAttr];    };    FME_Execute EvaluateExpression ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV $(DateTimeConverter_EXPRESSION_LIST) DateTimeConverter;    foreach attr $decodedAttrs oldAttrVal $attrVals oldAttrExists $attrExists oldAttrNull $attrNulls {       set newAttrVal [FME_GetAttribute $attr];       if {[string length $newAttrVal] == 0} {          if {{NO} eq {NO} || [string length $oldAttrVal] > 0} {             FME_SetAttribute fme_rejection_code "INVALID_INPUT";             break;          } elseif {!$oldAttrExists} {             FME_UnsetAttributes $attr;          } elseif {!$oldAttrNull} {             FME_SetAttribute $attr {};          };       }    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_1    INPUT  FEATURE_TYPE DateTimeStamper_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT, ___fme_rejection_code___,fme_rejection_code)       @Tcl2(DateTimeConverter_746fa7df_517e_4457_8c2d_9b83557308530_DateTimeConverter)
+Tcl2 proc DateTimeConverter_cdacb6d6_3e3b_4418_92d0_f4c9d88936af1_DateTimeConverter {} {    set attrs {_timestamp};    set decodedAttrs {};    set attrVals {};    set attrNulls {};    set attrMissings {};    foreach attr $attrs {       set decodedAttr [FME_DecodeText $attr];       lappend decodedAttrs $decodedAttr;       lappend attrVals [FME_GetAttribute $decodedAttr];       lappend attrNulls [FME_IsAttributeNull $decodedAttr];       lappend attrExists [FME_AttributeExists $decodedAttr];    };    FME_Execute EvaluateExpression ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV $(DateTimeConverter_EXPRESSION_LIST) DateTimeConverter;    foreach attr $decodedAttrs oldAttrVal $attrVals oldAttrExists $attrExists oldAttrNull $attrNulls {       set newAttrVal [FME_GetAttribute $attr];       if {[string length $newAttrVal] == 0} {          if {{NO} eq {NO} || [string length $oldAttrVal] > 0} {             FME_SetAttribute fme_rejection_code "INVALID_INPUT";             break;          } elseif {!$oldAttrExists} {             FME_UnsetAttributes $attr;          } elseif {!$oldAttrNull} {             FME_SetAttribute $attr {};          };       }    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_1    INPUT  FEATURE_TYPE DateTimeStamper_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT, ___fme_rejection_code___,fme_rejection_code)       @Tcl2(DateTimeConverter_cdacb6d6_3e3b_4418_92d0_f4c9d88936af1_DateTimeConverter)
 FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeConverter_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    FEATURE_TABLE_SHIM_SUPPORT Yes    OUTPUT PASSED FEATURE_TYPE DateTimeConverter_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE DateTimeConverter_OUTPUT       @RenameAttributes(FME_STRICT, fme_rejection_code,___fme_rejection_code___)
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME DateTimeConverter_<Rejected> INPUT FEATURE_TYPE DateTimeConverter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DateTimeConverter<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
